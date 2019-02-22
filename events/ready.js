@@ -14,7 +14,7 @@ module.exports = async (bot) => {
 
     function setGame() {
         const set = () => {
-            bot.user.setActivity(`SG7 SERVER`, {type:botconfig.stats}).catch(err => console.log(err));
+            bot.user.setActivity(`CERTIFIED CHUTIYE SERVER`, {type:botconfig.stats}).catch(err => console.log(err));
         };
         set();
         setInterval(() => set(), 60 * 60000);
